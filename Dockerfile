@@ -2,7 +2,7 @@ FROM golang:latest
 RUN mkdir /app 
 ADD . /app/ 
 WORKDIR /app 
-RUN go get -d github.com/Arachnid/etherquery
+RUN go get -d github.com/kejace/etherquery
 RUN go get -d github.com/kejace/go-ethereum
 RUN go build -o main . 
 CMD ["/app/main"]
