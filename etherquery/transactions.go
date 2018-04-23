@@ -1,11 +1,11 @@
 package etherquery
 
 import (
-    "github.com/ethereum/go-ethereum/common"
-    "github.com/ethereum/go-ethereum/rpc"
-    "github.com/ethereum/go-ethereum/core/state"
-    "github.com/ethereum/go-ethereum/core/types"
-    "github.com/ethereum/go-ethereum/core/vm"
+    "github.com/kejace/go-ethereum/common"
+    "github.com/kejace/go-ethereum/rpc"
+    "github.com/kejace/go-ethereum/core/state"
+    "github.com/kejace/go-ethereum/core/types"
+    "github.com/kejace/go-ethereum/core/vm"
     "google.golang.org/api/bigquery/v2"
 )
 
